@@ -1,5 +1,5 @@
 # balena-browser-timezone-bug
-## Mini-repo to demonstrate TZ issue with Javascript in balenablocks/browser
+## Mini-repo to demonstrate [TZ issue with Javascript in balenablocks/browser](https://github.com/balenablocks/browser/issues/29)
 
 ### Usage
 1. Clone this repository
