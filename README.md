@@ -7,10 +7,9 @@
 3. `balena push myapp`
 4. `balena env add RESIN_HOST_CONFIG_gpu_mem 128 -a myapp`
 5. `balena env add TZ America/New_York -a myapp`
-6. `balena 
-7. Move a device to `myapp`
-8. Get device time: `echo date | balena ssh <device>`
-9. Get browser time: `echo date | balena ssh <device> browser`
+6. Move a device to `myapp`
+7. Get device time: `echo date | balena ssh <device>`
+8. Get browser time: `echo date | balena ssh <device> browser`
 
 ### Results:
 ```
