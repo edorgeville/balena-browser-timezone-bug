@@ -1,0 +1,9 @@
+FROM balenalib/%%BALENA_MACHINE_NAME%%-alpine-node:14-run
+
+RUN npm i -g serve
+
+WORKDIR /usr/src/app
+
+COPY index.html .
+
+CMD serve -l 80

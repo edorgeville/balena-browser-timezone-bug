@@ -1,0 +1,12 @@
+version: '2.0'
+services:
+  browser:
+    image: balenablocks/browser:raspberrypi4-64
+    privileged: true
+    environment:
+      LAUNCH_URL: "http://web"
+      ENABLE_GPU: 1
+      KIOSK: 0
+      TZ: America/New_York
+  web:
+    build: web

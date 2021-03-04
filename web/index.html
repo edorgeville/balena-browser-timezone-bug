@@ -1,0 +1,15 @@
+<html>
+  <script>
+    setInterval(() => {
+      const currentDate = new Date()
+      const offset = currentDate.getTimezoneOffset()
+      const dateText = currentDate.toLocaleTimeString()
+      document.querySelector('#app h1').innerHTML = dateText
+      document.querySelector('#app h2').innerHTML = offset
+    }, 1000)
+  </script>
+  <div id="app">
+    <h1></h1>
+    <h2></h2>
+  </div>
+</html>
